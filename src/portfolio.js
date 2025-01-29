@@ -313,7 +313,7 @@ const awards = {
       issuer: "Accenture",
       date: "May 2022",
       description: "Recognized for consistently producing high-quality work on projects while fostering a collaborative and inclusive team environment. This award reflects dedication to individual growth and team success.",
-      certificateImage: require("./assets/images/Award2.jpg"),
+      certificateImage: require("./assets/images/AccAward2.jpg"),
     },
     {
       title: "On the Spot Award",
