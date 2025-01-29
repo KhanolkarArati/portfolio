@@ -1,0 +1,38 @@
+@import "../../_globalColor";
+
+.achievement-heading {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  //padding-top: 20px;
+  text-align: center;
+  color: #212529;
+}
+.achievement-subtitle {
+  margin: 0px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .achievement-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .achievement-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .achievement-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
