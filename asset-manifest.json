@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aaba1215.css",
+    "main.js": "/portfolio/static/js/main.2df8a44e.js",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/PublicationCertificate.jpg": "/portfolio/static/media/PublicationCertificate.7b6f9aeda6f525f2a920.jpg",
+    "static/media/UMLogo.png": "/portfolio/static/media/UMLogo.e001689a653be35601ec.png",
+    "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/AccAward2.png": "/portfolio/static/media/AccAward2.245db8b039519a76aaa5.png",
+    "static/media/azureLogo.png": "/portfolio/static/media/azureLogo.54b89849d40ecb73884e.png",
+    "static/media/AccentureAward.jpg": "/portfolio/static/media/AccentureAward.2be66f67d8362f87b998.jpg",
+    "static/media/Arati.jpg": "/portfolio/static/media/Arati.aed669eb357824feba3f.jpg",
+    "static/media/review.png": "/portfolio/static/media/review.4e3c7912e6a111775c2c.png",
+    "static/media/SmartTrolley.png": "/portfolio/static/media/SmartTrolley.6452e0dc3003a951114c.png",
+    "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/TCSAward.jpg": "/portfolio/static/media/TCSAward.3b6791318882692182e9.jpg",
+    "static/media/coldspy.png": "/portfolio/static/media/coldspy.47b36205a1daf0adef82.png",
+    "static/media/CarLogo.png": "/portfolio/static/media/CarLogo.f5d2f602896f79d5aba9.png",
+    "static/media/chatbot1.png": "/portfolio/static/media/chatbot1.5bb2ea701330f17e155c.png",
+    "static/media/UMDLogo.png": "/portfolio/static/media/UMDLogo.ca6608080f6e58c2ecd4.png",
+    "static/media/DYPLogo.jpeg": "/portfolio/static/media/DYPLogo.52691d7a99991705658d.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.aaba1215.css.map": "/portfolio/static/css/main.aaba1215.css.map",
+    "main.2df8a44e.js.map": "/portfolio/static/js/main.2df8a44e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaba1215.css",
+    "static/js/main.2df8a44e.js"
+  ]
+}
