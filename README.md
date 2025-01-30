@@ -34,7 +34,7 @@ const greeting = {
 };
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/arati501",
+  github: "https://github.com/KhanolkarArati",
   linkedin: "https://www.linkedin.com/in/arati-khanolkar/",
   gmail: "aratik@umich.edu",
 };

@@ -38,7 +38,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/arati501/",
+  github: "https://github.com/KhanolkarArati/",
   linkedin: "https://www.linkedin.com/in/arati-khanolkar/",
   gmail: "aratik@umich.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -210,7 +210,7 @@ const bigProjects = {
       projectName: "Car Brand Detection using Neural Networks",
       projectDesc: "Built custom CNN and pre-trained VGG16 models to predict car brands with 93% accuracy, leveraging data preprocessing and augmentation techniques.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/arati501/" },
+        { name: "GitHub", url: "https://github.com/KhanolkarArati/" },
         { name: "Presentation (PPTX)", url: "https://drive.google.com/uc?id=1xqoohZ1sC-SMGE0GDf8FTSt32FLd_y-X&export=download" }
       ]
     },
@@ -227,7 +227,7 @@ const bigProjects = {
       projectName: "AI-Powered Bakery Assistant",
       projectDesc: "Developed an AI chatbot using OpenAI GPT for personalized customer interactions, order management, and social media integration for a bakery.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/arati501/" }
+        { name: "GitHub", url: "https://github.com/KhanolkarArati/" }
       ]
     },
     {
@@ -235,7 +235,7 @@ const bigProjects = {
       projectName: "E-commerce Review Sentiment Analysis",
       projectDesc: "Created a sentiment analysis tool using Python and Scikit-learn to analyze customer reviews, providing actionable insights for product improvement.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/arati501/" },
+        { name: "GitHub", url: "https://github.com/KhanolkarArati/" },
         { name: "Presentation (PPTX)", url: "https://drive.google.com/uc?id=1zljPjJHNNnGafuQYALQf-4sULXEoyXcZ&export=download" }
       ]
     },
@@ -244,7 +244,7 @@ const bigProjects = {
       projectName: "College Pantry Management System",
       projectDesc: "Developed a grocery ordering system with Java, Angular, and AWS S3, achieving 99.9% uptime and reducing server costs by 25%.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/arati501/" },
+        { name: "GitHub", url: "https://github.com/KhanolkarArati/" },
         { name: "Presentation (PPTX)", url: "https://drive.google.com/uc?id=1awNzj0arHbjz8o0K4KKL0XBb94sKPalz&export=download" }
       ]
     },
