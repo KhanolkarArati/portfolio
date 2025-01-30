@@ -27,11 +27,13 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <div className="logo">
+        <div className="logo-container">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </div>
+
+        {/* Menu button */}
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -40,6 +42,8 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
+
+        {/* Menu items */}
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
@@ -71,23 +75,13 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {/* {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
-          )}  */}
-          {<li>
+          <li>
             <a href="#contact">Contact Me</a>
-          </li>}
-          {/* <li> */}
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          {/* <a> */}
-          {/* <ToggleSwitch /> */}
-          {/* </a> */}
-          {/* </li> */}
+          </li>
         </ul>
       </header>
     </Headroom>
   );
 }
+
 export default Header;

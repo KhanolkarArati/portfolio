@@ -12,4 +12,15 @@
 .footer-div {
   margin-top: 2rem;
   padding-bottom: 1rem;
+
+  // Add media queries for responsiveness
+  @media (max-width: 768px) {
+    margin-top: 1rem;  // Reduce top margin on smaller screens
+    padding-bottom: 0.5rem; // Reduce padding on smaller screens
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 0.5rem;  // Even more reduction for very small screens
+    padding-bottom: 0.25rem; // Further reduce padding
+  }
 }

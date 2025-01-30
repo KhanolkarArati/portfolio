@@ -1,182 +1,219 @@
+@import "../../_globalColor";
+
 .work-experience-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
-
-  .work-experience-heading {
-    font-size: 52px;
-    font-weight: 400;
-    text-align: left;
-    margin: 0 auto 40px auto;
-    padding-left: 66px;
-    color: #212529;
-
-    @media (max-width: 1380px) {
-      font-size: 40px;
-      padding-left: 15px;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 30px;
-      padding-left: 10px;
-    }
-  }
+  background-color: $lightBackground3;
+  max-width: 100%;
+  overflow-x: hidden;
 
   .work-experience-container {
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
 
+    /* Vertical timeline line (hidden on small screens) */
     &::before {
       content: "";
       position: absolute;
-      left: 5px;
+      left: 50px;
       top: 0;
-      transform: translateX(0%);
       width: 4px;
       height: 100%;
-      background-color: #ccc;
+      background-color: $lightBorder1;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
   }
 
   .work-experience-item {
-    position: relative;
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
+    gap: 15px; /* Reduced gap */
+    flex-wrap: nowrap;
+    position: relative;
+    margin-bottom: 20px; /* Reduced gap between items */
 
-    .work-experience-date {
-      font-size: 1rem;
-      font-weight: 600;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      align-self: center;
-      width: 400px;
-      padding: 30px;
+      margin-bottom: 15px; /* Further reduced gap between items on small screens */
+    }
 
-      @media (max-width: 1380px) {
-        font-size: 0.9rem;
-      }
+    /* Work symbol (hidden on small screens) */
+    &::before {
+      content: "💼";
+      position: absolute;
+      left: 38px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      color: $skillsColor;
 
       @media (max-width: 768px) {
-        font-size: 0.8rem;
+        display: none;
       }
     }
 
+    /* Date styling */
+    .work-experience-date {
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: center;
+      width: 23%;
+      flex-shrink: 0;
+      margin-left: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $textColor;
+
+      @media (max-width: 768px) {
+        width: auto;
+        margin-left: 0;
+        background: #55198b;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+    }
+
+    /* Card container */
     .work-experience-content {
-      padding: 25px;
-      border: 1px solid #ddd;
+      padding: 15px; /* Reduced padding */
+      border: 1px solid $lightBorder1;
       border-radius: 12px;
-      background-color: #fff;
+      background-color: $lightBackground1;
       width: 100%;
-      position: relative;
+      max-width: 650px; /* Reduced max-width for smaller cards */
+      min-height: 220px; /* Reduced min-height */
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      justify-content: flex-start;
+      align-items: flex-start;
+      box-shadow: 0 4px 12px $lightBoxShadow;
       transition: all 0.3s ease;
 
       &:hover {
         transform: translateY(-5px);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 6px 15px $lightBoxShadowDarker;
+      }
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+        padding: 10px; /* Reduced padding on small screens */
+        border-radius: 10px;
       }
 
       .company-info {
         display: flex;
         align-items: center;
-        margin-bottom: 25px;
+        gap: 15px; /* Increased gap to ensure proper alignment */
+        flex-wrap: nowrap;
+        width: 100%; /* Ensure full width */
+        margin-bottom: 10px;
 
+        /* Align logo to the left */
         .company-logo {
-          max-width: 120px;
+          max-width: 100px; /* Increased logo size */
           height: auto;
-          margin-right: 25px;
-          transition: transform 0.3s ease;
+          margin-right: 15px; /* Margin to the right of logo to keep spacing */
 
-          &:hover {
-            transform: scale(1.1);
+          @media (max-width: 768px) {
+            max-width: 90px; /* Larger logo on small screens */
+            margin: 0 auto; /* Centers the logo on small screens */
           }
         }
 
         .company-details {
-          display: flex;
-          flex-direction: column;
+          text-align: left;
 
           h4 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: 600;
-            color: #333;
-            margin-bottom: 3px; /* Reduced gap */
-            @media (max-width: 1380px) {
-              font-size: 1.2rem;
-            }
+            color: $titleColor;
+            margin-bottom: 3px;
 
             @media (max-width: 768px) {
-              font-size: 1rem;
+              font-size: 1.1rem; /* Reduced font size on small screens */
             }
           }
 
           h5 {
-            font-size: 1.2rem;
-            color: #555;
-            margin-top: 3px; /* Reduced gap */
-            margin-bottom: 15px;
-
-            @media (max-width: 1380px) {
-              font-size: 1.1rem;
-            }
+            font-size: 1.1rem;
+            color: $subTitle;
+            margin-top: 5px;
 
             @media (max-width: 768px) {
-              font-size: 1rem;
+              font-size: 1rem; /* Reduced font size on small screens */
             }
           }
         }
       }
 
-      p {
-        font-size: 1rem;
-        color: #666;
+      .description {
+        flex-grow: 1;
+        width: 100%;
+        font-size: 0.9rem;
+        color: $cardSubtitle;
+        line-height: 1.6;
         margin-bottom: 15px;
-
-        @media (max-width: 1380px) {
-          font-size: 0.95rem;
-        }
+        text-align: left;
 
         @media (max-width: 768px) {
-          font-size: 0.9rem;
+          font-size: 0.8rem; /* Smaller font size for better readability */
+        }
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        text-align: left;
+
+        @media (max-width: 768px) {
+          font-size: 1rem; /* Reduced font size for small screens */
         }
       }
 
       ul {
         margin: 0;
-        padding: 0 0 0 20px;
+        padding-left: 20px;
+        width: 100%;
+        list-style-type: square;
+        text-align: left;
 
         li {
           font-size: 1rem;
-          color: #555;
+          color: $textColor;
           margin-bottom: 8px;
 
-          @media (max-width: 1380px) {
-            font-size: 0.9rem;
-          }
-
           @media (max-width: 768px) {
-            font-size: 0.85rem;
+            font-size: 0.9rem; /* Reduced font size for small screens */
           }
         }
       }
     }
+  }
+}
 
-    &::before {
-      content: "";
-      position: absolute;
-      left: -8px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-      background-color: #9c27b0;
-      border: 4px solid #fff;
-      border-radius: 50%;
-    }
+/* Media Query for Overall Font Size Adjustment */
+@media (max-width: 768px) {
+  .work-experience-section {
+    font-size: 0.9rem; /* Reduces overall font size for smaller screens */
+  }
+
+  .work-experience-container {
+    font-size: 0.9rem;
+  }
+
+  .work-experience-item {
+    font-size: 0.9rem;
   }
 }

@@ -5,6 +5,7 @@
   height: auto;
   width: 250px;
 }
+
 .card-title {
   color: $titleColor;
   font-size: 22px;
@@ -12,17 +13,39 @@
   font-weight: 700;
   margin: 15px 0 0 0;
 }
+.project-subtitle {
+  font-size: 16px;
+  margin-top: 20px;
+}
 
-.project-heading{
+.project-heading {
   font-size: 52px;
   font-weight: 400;
   color: #212529;
+  text-align: left; /* Centering the title */
+  margin: 0; /* Remove any margins that could push the title off-screen */
+
+  /* Media Query for Font Size Adjustment */
+  @media (max-width: 1380px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px; /* Reduce font size on small screens */
+    text-align: center; /* Ensure it's centered on smaller screens */
+  }
 }
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -31,7 +54,9 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  height: auto; /* Ensure the card has enough height for its content */
 }
+
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
@@ -49,12 +74,15 @@
 .project-detail {
   text-align: center;
 }
+
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
+
 .project-card-dark:hover {
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
+
 .project-image {
   position: relative;
   height: 250px;
@@ -93,4 +121,18 @@
     font-size: 16px;
     text-align: center;
   }
+  
+  /* Ensure the card doesn't overflow and content remains centered */
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-heading {
+    font-size: 28px; /* Even smaller font size for mobile devices */
+    text-align: center;
+    margin: 0; /* Remove any unwanted margins */
+    padding: 0; /* Remove any unwanted padding */
+    width: 100%; /* Ensure the title takes full width */
+  }
 }
+

@@ -1,12 +1,11 @@
 @import "../../_globalColor";
 
-/*React-headroom*/
+/* React-headroom */
 .headroom-wrapper {
   max-height: 100px;
 }
 
-/* header */
-
+/* Header */
 .dark-menu {
   background-color: $darkBackground !important;
   color: $textColorDark;
@@ -26,31 +25,42 @@
   padding: 15px 20px;
   margin: 0px auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+/* Container for logo and menu button */
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 /* Logo */
-.header .logo {
+.header .logo-container {
   display: flex;
   align-items: center;
   font-size: 1.5em;
   margin-top: 10px;
-  color: black; /* Ensures black color */
-  cursor: default; /* Prevents clicking */
+  color: black;
+  cursor: default;
 }
 
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
   padding: 0 10px;
-  color: black; /* Ensures text remains black */
+  color: black;
 }
 
 /* Menu */
 .header ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  padding-right: 40px;
   list-style: none;
   display: flex;
 }
@@ -71,21 +81,43 @@
   background-color: $headerHoverBG;
 }
 
-/* Menu Icon */
+/* Menu Icon (3 horizontal lines) */
 .header .menu-icon {
   cursor: pointer;
   display: none;
   padding: 28px 20px;
   user-select: none;
+  position: absolute;
+  right: 20px; /* Align the menu icon to the right */
 }
 
 .header .menu-icon .navicon {
   background: $iconBackground;
   display: block;
-  height: 2px;
-  width: 18px;
+  height: 1px; /* Horizontal line height */
+  width: 18px; /* Line width */
   position: relative;
   transition: background 0.2s ease-out;
+}
+
+/* Add the two other horizontal lines */
+.header .menu-icon .navicon::before,
+.header .menu-icon .navicon::after {
+  content: "";
+  background: $iconBackground;
+  display: block;
+  height: 1.5px;
+  width: 18px;
+  position: absolute;
+  transition: transform 0.2s ease-out;
+}
+
+.header .menu-icon .navicon::before {
+  top: -6px; /* Position the top line above */
+}
+
+.header .menu-icon .navicon::after {
+  bottom: -6px; /* Position the bottom line below */
 }
 
 .header .menu-icon .navicon-dark {
@@ -109,12 +141,15 @@
     width: 100%;
   }
 
+  /* When checkbox is checked, show the menu */
   .header .menu-btn:checked ~ .menu {
     display: flex;
   }
 
   .header .menu-icon {
     display: block;
+    position: absolute;
+    right: 40px; /* Align the menu icon to the right */
   }
 
   .header ul {

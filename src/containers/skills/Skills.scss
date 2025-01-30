@@ -24,6 +24,20 @@ $textSecondary: #495057;
   color: $textPrimary;
   margin-bottom: 60px;
   margin-top: -10px;
+
+  /* Media Query for Font Size Adjustment */
+  @media (max-width: 1380px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 .skills-card-container {
@@ -78,6 +92,10 @@ $textSecondary: #495057;
       font-weight: 400;
       color: $textPrimary;
       margin: 0;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
     }
   }
 
@@ -106,6 +124,10 @@ $textSecondary: #495057;
         flex-grow: 1;
         margin-right: 10px;
         transition: color 0.3s ease;
+
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
       }
 
       .progress-bar-container {
@@ -148,5 +170,10 @@ $textSecondary: #495057;
 
   .skills-card {
     width: 100%;
+  }
+
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
   }
 }
