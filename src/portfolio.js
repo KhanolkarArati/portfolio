@@ -27,10 +27,9 @@ const greeting = {
   displayGreeting: true, // Set false to hide this section, defaults to true
   interests: [
     "Full-Stack Software Development",
-    "API Design & Integration",
-    "Data Engineering & Analytics",
-    "System Architecture & Design",
-    "Continous Integration & Continous Deployment",
+    "API Design and Integration",
+    "Data Engineering and Analytics",
+    "System Architecture and Design",
     "Software Project Management"
   ]
 };
