@@ -45,7 +45,7 @@ export default function Greeting() {
             {/* Social Media Icons */}
             <div className="social-icons">
               <SocialMedia 
-                githubLink="https://github.com/aratikhanolkar" 
+                githubLink="https://github.com/khanolkararati" 
                 linkedinLink="https://www.linkedin.com/in/aratikhanolkar" 
                 gmailLink="mailto:aratik@umich.edu"
               />

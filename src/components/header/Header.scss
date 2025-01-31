@@ -50,10 +50,12 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Ephesis", cursive; 
   font-weight: bold;
   padding: 0 10px;
   color: black;
+  white-space: nowrap;
+  overflow: visible;
 }
 
 /* Menu */
