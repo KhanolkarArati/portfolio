@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6b788ec.css",
-    "main.js": "/portfolio/static/js/main.cac9c224.js",
+    "main.css": "/portfolio/static/css/main.ddeea426.css",
+    "main.js": "/portfolio/static/js/main.cc5254ff.js",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/PublicationCertificate.jpg": "/portfolio/static/media/PublicationCertificate.7b6f9aeda6f525f2a920.jpg",
@@ -21,11 +21,11 @@
     "static/media/UMDLogo.png": "/portfolio/static/media/UMDLogo.ca6608080f6e58c2ecd4.png",
     "static/media/DYPLogo.jpeg": "/portfolio/static/media/DYPLogo.52691d7a99991705658d.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.c6b788ec.css.map": "/portfolio/static/css/main.c6b788ec.css.map",
-    "main.cac9c224.js.map": "/portfolio/static/js/main.cac9c224.js.map"
+    "main.ddeea426.css.map": "/portfolio/static/css/main.ddeea426.css.map",
+    "main.cc5254ff.js.map": "/portfolio/static/js/main.cc5254ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b788ec.css",
-    "static/js/main.cac9c224.js"
+    "static/css/main.ddeea426.css",
+    "static/js/main.cc5254ff.js"
   ]
 }
