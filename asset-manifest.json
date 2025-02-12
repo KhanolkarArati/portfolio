@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ddeea426.css",
-    "main.js": "/portfolio/static/js/main.cc5254ff.js",
+    "main.js": "/portfolio/static/js/main.9a90a6b6.js",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/PublicationCertificate.jpg": "/portfolio/static/media/PublicationCertificate.7b6f9aeda6f525f2a920.jpg",
@@ -16,16 +16,17 @@
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/TCSAward.jpg": "/portfolio/static/media/TCSAward.3b6791318882692182e9.jpg",
     "static/media/coldspy.png": "/portfolio/static/media/coldspy.47b36205a1daf0adef82.png",
+    "static/media/Delphinus.png": "/portfolio/static/media/Delphinus.5737d21840f08ce085c4.png",
     "static/media/CarLogo.png": "/portfolio/static/media/CarLogo.f5d2f602896f79d5aba9.png",
     "static/media/chatbot1.png": "/portfolio/static/media/chatbot1.5bb2ea701330f17e155c.png",
     "static/media/UMDLogo.png": "/portfolio/static/media/UMDLogo.ca6608080f6e58c2ecd4.png",
     "static/media/DYPLogo.jpeg": "/portfolio/static/media/DYPLogo.52691d7a99991705658d.jpeg",
     "index.html": "/portfolio/index.html",
     "main.ddeea426.css.map": "/portfolio/static/css/main.ddeea426.css.map",
-    "main.cc5254ff.js.map": "/portfolio/static/js/main.cc5254ff.js.map"
+    "main.9a90a6b6.js.map": "/portfolio/static/js/main.9a90a6b6.js.map"
   },
   "entrypoints": [
     "static/css/main.ddeea426.css",
-    "static/js/main.cc5254ff.js"
+    "static/js/main.9a90a6b6.js"
   ]
 }
