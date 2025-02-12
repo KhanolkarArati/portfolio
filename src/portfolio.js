@@ -41,8 +41,6 @@ const socialMediaLinks = {
   github: "https://github.com/KhanolkarArati/",
   linkedin: "https://www.linkedin.com/in/arati-khanolkar/",
   gmail: "aratik@umich.edu",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -60,7 +58,7 @@ const educationInfo = {
     },
     {
       schoolName: "D. Y. Patil College of Engineering and Technology, Kolhapur",
-      website:"https://coek.dypgroup.edu.in/",
+      website: "https://coek.dypgroup.edu.in/",
       logo: require("./assets/images/DYPLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science and Engineering",
       duration: "June 2015 - May 2019",
@@ -90,7 +88,7 @@ const skillsSection = {
       skills: [
         { name: "Java", proficiency: 85 },
         { name: "Spring Boot", proficiency: 80 },
-        { name: "Microservices", proficiency: 80 },
+        { name: "Microservices", proficiency: 85 },
         { name: "PHP", proficiency: 70 },
         { name: "MVC", proficiency: 75 },
         { name: "Splunk", proficiency: 60 },
@@ -102,7 +100,7 @@ const skillsSection = {
       skills: [
         { name: "React", proficiency: 85 },
         { name: "Angular", proficiency: 80 },
-        { name: "NodeJs", proficiency: 70 },
+        { name: "NodeJs", proficiency: 80 },
         { name: "HTML", proficiency: 95 },
         { name: "CSS", proficiency: 90 },
         { name: "BootStrap", proficiency: 90 },
@@ -112,10 +110,10 @@ const skillsSection = {
       title: "Datastores",
       icon: "fas fa-database",
       skills: [
-        { name: "MySQL", proficiency: 85 },
+        { name: "MySQL", proficiency: 90 },
         { name: "MongoDB", proficiency: 80 },
-        { name: "AWS S3", proficiency: 90 },
-        { name: "PostgreSQL", proficiency: 80 },
+        { name: "AWS S3", proficiency: 80 },
+        { name: "PostgreSQL", proficiency: 85 },
         { name: "Redis", proficiency: 70 },
         { name: "Kafka", proficiency: 75 },
       ],
@@ -168,10 +166,10 @@ const workExperiences = {
       date: "January 2024 – Present",
       desc: "Responsibilities and Courses Instructed:",
       descBullets: [
-          "Grading exams, assignments, and projects"    , 
-          "Teaching labs for Software Engineering Tools class" ,
-          "Undergraduate: CIS 285 Software Engineering Tools, and CIS 476 Software Architecture & Design Patterns",
-          "Graduate: CIS 527 Computer Networks"
+        "Grading exams, assignments, and projects",
+        "Teaching labs for Software Engineering Tools class",
+        "Undergraduate: CIS 285 Software Engineering Tools, and CIS 476 Software Architecture & Design Patterns",
+        "Graduate: CIS 527 Computer Networks"
       ]
     },
     {
@@ -181,8 +179,10 @@ const workExperiences = {
       date: "January 2022 – July 2023",
       desc: "Led critical projects to improve efficiency and automate processes for a telecom client.",
       descBullets: [
-        "Automated data pre-processing using Java web services (SOAP, REST) and React, resulting in 40% faster test data creation.",
-        "Developed an end-to-end payment trigger automation system, reducing payment processing time by 30%."
+        "Led a team of 7 developers to automate data pre-processing for a US telecom client, leveraging Java (SOAP, REST) and React, reducing test data creation time by 40% and improving overall workflow efficiency",
+        "Engineered and deployed end-to-end payment trigger automation system using Java, Spring Boot, Maven, and MySQL, reducing payment processing time by 30%, optimizing billing cycles and enhancing payment logic accuracy",
+        "Architected a Kafka-driven real-time data processing pipeline, modernizing legacy schedulers and improving efficiency by 20%",
+        "Collaborated cross-functionally with business units to define project scope, optimize software functionality, and ensure seamless project handovers using JIRA and Agile methodologies"
       ]
     },
     {
@@ -192,8 +192,23 @@ const workExperiences = {
       date: "November 2019 – January 2022",
       desc: "Designed and implemented scalable applications and improved system performance.",
       descBullets: [
-        "Managed a team to create a Video Conferencing Web Application (N:N) with features like Notes, Recording, and Screenshare.",
-        "Developed RESTful APIs enabling real-time data transfer using Java, JavaScript, and TypeScript."
+        "Led a team of 4 developers to design and launch a scalable Video Conferencing Web App using Java, Node.js, and Angular,supporting 100+ concurrent users and integrating key features like Notes, Recording, File Sharing, and Screenshare",
+        "Built high-performance RESTful APIs for real-time data transfer using Java, JavaScript, and TypeScript, improving system scalability and reducing response latency",
+        "Established and automated CI/CD pipelines from scratch with Jenkins, Git, and SonarQube, resulting in a 40% reduction in release cycles and ensuring faster, more reliable software releases",
+        "Optimized SQL database performance using MySQL Workbench, reducing query response times by 20%, leading to faster data retrieval and improved system efficiency"
+      ]
+    },
+    {
+      role: "Web Development Intern",
+      company: "Delphinus Technology Inc, India",
+      companylogo: require("./assets/images/TCSLogo.png"),
+      date: "December 2017 – January 2018",
+      desc: "Contributed to web development projects, focusing on creating responsive and user-friendly websites.",
+      descBullets: [
+        "Developed dynamic user interfaces using HTML5, CSS3, and JavaScript",
+        "Improved website design and functionality with jQuery and Bootstrap",
+        "Supported back-end development with PHP for enhanced website functionality",
+        "Utilized Git for version control and efficient team collaboration"
       ]
     }
   ]
@@ -266,7 +281,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: "Certification And Publication",
-  
+
   achievementsCards: [
     {
       title: "Microsoft Azure Fundamentals",
@@ -299,29 +314,29 @@ const achievementSection = {
 const awards = {
 
   awardCard:
-  [
-    {
-      title: "Client Value Creation",
-      issuer: "Accenture",
-      date: "July 2022",
-      description: "Awarded for delivering exceptional value to clients by implementing innovative solutions that addressed key business challenges. This recognition highlights a commitment to excellence in project execution and client satisfaction.",
-      certificateImage: require("./assets/images/AccentureAward.jpg"),
-    },
-    {
-      title: "Respect for the Individual",
-      issuer: "Accenture",
-      date: "May 2022",
-      description: "Recognized for consistently producing high-quality work on projects while fostering a collaborative and inclusive team environment. This award reflects dedication to individual growth and team success.",
-      certificateImage: require("./assets/images/AccAward2.png"),
-    },
-    {
-      title: "On the Spot Award",
-      issuer: "Tata Consultancy Services",
-      date: "August 2021",
-      description: "Honored for significant technical contributions that directly impacted project success. Known for a proactive problem-solving approach, innovative solutions, and dedication to meeting project deadlines.",
-      certificateImage: require("./assets/images/TCSAward.jpg"),
-    },
-  ],
+    [
+      {
+        title: "Client Value Creation",
+        issuer: "Accenture",
+        date: "July 2022",
+        description: "Awarded for delivering exceptional value to clients by implementing innovative solutions that addressed key business challenges. This recognition highlights a commitment to excellence in project execution and client satisfaction.",
+        certificateImage: require("./assets/images/AccentureAward.jpg"),
+      },
+      {
+        title: "Respect for the Individual",
+        issuer: "Accenture",
+        date: "May 2022",
+        description: "Recognized for consistently producing high-quality work on projects while fostering a collaborative and inclusive team environment. This award reflects dedication to individual growth and team success.",
+        certificateImage: require("./assets/images/AccAward2.png"),
+      },
+      {
+        title: "On the Spot Award",
+        issuer: "Tata Consultancy Services",
+        date: "August 2021",
+        description: "Honored for significant technical contributions that directly impacted project success. Known for a proactive problem-solving approach, innovative solutions, and dedication to meeting project deadlines.",
+        certificateImage: require("./assets/images/TCSAward.jpg"),
+      },
+    ],
   display: true
 }
 
