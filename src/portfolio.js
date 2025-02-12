@@ -201,7 +201,7 @@ const workExperiences = {
     {
       role: "Web Development Intern",
       company: "Delphinus Technology Inc, India",
-      companylogo: require("./assets/images/TCSLogo.png"),
+      companylogo: require("./assets/images/Delphinus.png"),
       date: "December 2017 – January 2018",
       desc: "Contributed to web development projects, focusing on creating responsive and user-friendly websites.",
       descBullets: [
