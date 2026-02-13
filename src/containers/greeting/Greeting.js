@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import "./Greeting.scss";
-import AratiImage from "../../assets/images/Arati.jpeg";
+import AratiImage from "../../assets/images/Arati.png";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
