@@ -2,7 +2,6 @@ import React from "react";
 import "./WorkExperience.scss";
 import { workExperiences } from "../../portfolio";
 
-// Helper function to calculate the time difference dynamically
 const calculateDuration = (startDate, endDate) => {
   const start = new Date(startDate);
   const end = endDate === "Present" ? new Date() : new Date(endDate);
@@ -15,7 +14,6 @@ const calculateDuration = (startDate, endDate) => {
     months += 12;
   }
 
-  // Dynamic display based on the difference
   const yearsStr = years > 0 ? `${years} year${years !== 1 ? "s" : ""}` : '';
   const monthsStr = months > 0 ? `${months} month${months !== 1 ? "s" : ""}` : '';
 

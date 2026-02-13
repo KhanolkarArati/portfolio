@@ -9,7 +9,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          © 2025 Arati Khanolkar. All rights reserved.
+          © 2026 Arati Khanolkar. All rights reserved.
         </p>
       </div>
     </Fade>

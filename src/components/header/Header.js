@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
@@ -20,7 +19,6 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewResume = resumeSection.display;
   const viewAwards = awards.display;
   const viewProjects = bigProjects.display;
 

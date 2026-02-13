@@ -1,21 +1,13 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
@@ -23,8 +15,8 @@ const greeting = {
   title: "Arati Khanolkar",
   subTitle: "Software Engineer with 4+ years of experience leading impactful projects for global clients, driving innovation and delivering scalable solutions to optimize business operations",
   resumeLink:
-    "https://drive.google.com/file/d/1kMfb94g26REhC0VnTBWmS0_jY6w8td9H/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true, // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1295dwqOoebKSUigCJZ7tGK5x762w6ivk/view?usp=sharing",
+  displayGreeting: true,
   interests: [
     "Full-Stack Software Development",
     "API Design and Integration",
@@ -41,13 +33,13 @@ const socialMediaLinks = {
   github: "https://github.com/KhanolkarArati/",
   linkedin: "https://www.linkedin.com/in/arati-khanolkar/",
   gmail: "aratik@umich.edu",
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "University of Michigan - Dearborn",
@@ -89,7 +81,7 @@ const skillsSection = {
         { name: "Java", proficiency: 85 },
         { name: "Spring Boot", proficiency: 80 },
         { name: "Microservices", proficiency: 85 },
-        { name: "PHP", proficiency: 70 },
+        { name: "NodeJs", proficiency: 80 },
         { name: "MVC", proficiency: 75 },
         { name: "Splunk", proficiency: 60 },
       ],
@@ -100,7 +92,7 @@ const skillsSection = {
       skills: [
         { name: "React", proficiency: 85 },
         { name: "Angular", proficiency: 80 },
-        { name: "NodeJs", proficiency: 80 },
+        { name: "EmberJs", proficiency: 85 },
         { name: "HTML", proficiency: 95 },
         { name: "CSS", proficiency: 90 },
         { name: "BootStrap", proficiency: 90 },
@@ -160,10 +152,23 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Product Developer",
+      company: "Epicor Software Corporation",
+      companylogo: require("./assets/images/epicor_logo.jpg"),
+      date: "May 2025 – Present",
+      desc: "Designed and developed full-stack MES solutions, integrating IoT and data systems to improve real-time production workflows.",
+      descBullets: [
+        "Developed core features for Epicor’s Manufacturing Execution System (MES) platform (on-premises and cloud), enabling digital work instructions and real-time production guidance for manufacturing customers",
+        "Modernised enterprise web application using Ember.js and JavaScript, improving real-time production visibility and operator decision-making",
+        "Engineered backend integrations using Node.js to connect IoT devices and shop-floor systems, enabling automated process control, data collection, and audit-ready error traceability",
+        "Built scalable data management and reporting functionality using MongoDB, and improved software quality and deployment reliability through automated testing and CI/CD pipelines (Mocha, Chai, Puppeteer, Selenium, TeamCity, GitHub, JIRA)"
+      ]
+    },
+    {
       role: "Graduate Teaching Assistant",
       company: "University of Michigan - Dearborn",
       companylogo: require("./assets/images/UMDLogo.png"),
-      date: "January 2024 – Present",
+      date: "January 2024 – April 2025",
       desc: "Responsibilities and Courses Instructed:",
       descBullets: [
         "Grading exams, assignments, and projects",
@@ -308,7 +313,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const awards = {
@@ -346,7 +351,7 @@ const awards = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
@@ -354,10 +359,10 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "248 679-6562",
-  email_address: "aratik@umich.edu"
+  email_address: "khanolkararati@gmail.com"
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false;
 
 export {
   illustration,
